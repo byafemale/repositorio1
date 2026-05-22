@@ -3,57 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ra.Cha ByAfemale</title>
+    <title>Ra.Cha ByAfemale - Macramé Artesanal</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navegación -->
     <nav class="navbar">
         <div class="container">
-            <div class="logo">Ra.Cha ByAfemale</div>
+            <div class="logo-container">
+                <div class="logo-circle">
+                    <span class="logo-text">Ra.Cha</span>
+                </div>
+            </div>
             <button class="menu-toggle" id="menuToggle">☰</button>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#gallery">Galería</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">SOBRE MI</a></li>
+                <li><a href="#benefits">BENEFICIOS</a></li>
+                <li><a href="#workshops">TALLERES</a></li>
+                <li><a href="#custom">MACRAMÉ A MEDIDA</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- Sección de Contacto Superior -->
+    <div class="contact-bar">
+        <div class="container">
+            <p>@RACHABYAFEMALE ✦ ESTUDIO DE MACRAMÉ ✦ MADRID ✦ TELF. +34 XXX XXX XXX ✦ RACHABYAFEMALE@MAIL.COM</p>
+        </div>
+    </div>
+
     <!-- Sección Hero -->
     <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Ra.Cha ByAfemale</h1>
-            <p>Macramé minimalista y moderno</p>
-            <a href="#gallery" class="cta-button">Ver nuestras obras</a>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>El arte de <span class="highlight">tejer</span> tu paz.</h1>
+                    <p class="hero-subtitle">Talleres presenciales en Madrid para crear desde el alma y reconectar con la sabiduría de un arte ancestral.</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=600&h=700&fit=crop" alt="Artista trabajando en macramé">
+            </div>
         </div>
     </section>
 
-    <!-- Sección Galería -->
-    <section class="gallery" id="gallery">
+    <!-- Sección Sobre Mi -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Sobre Mi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy una artesana apasionada por el macramé, un arte ancestral que conecta con nuestras emociones más profundas. A través de mis talleres, te enseño a transformar hilos en piezas únicas que reflejan tu paz interior.</p>
+                    <p>Cada nudo es una meditación, cada patrón es una historia. Mi objetivo es que descubras la magia de crear con tus manos y encuentres tranquilidad en el proceso.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop" alt="Macramé artesanal">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Beneficios -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2>Beneficios del Macramé</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Mindfulness</h3>
+                    <p>Conecta con el presente mientras tejes, dejando atrás el estrés del día a día.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Creatividad</h3>
+                    <p>Expresa tu lado artístico creando piezas únicas que reflejan tu personalidad.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Conexión</h3>
+                    <p>Reconecta con un arte ancestral y con una comunidad de creadores.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Calma</h3>
+                    <p>El proceso de tejer es terapéutico y te ayuda a encontrar tu paz interior.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nuestras Creaciones -->
+    <section class="gallery" id="workshops">
         <div class="container">
             <h2>Nuestras Creaciones</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=500&h=400&fit=crop" alt="Manta Raya en Macramé">
+                        <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=500&h=400&fit=crop" alt="Mar - Manta Raya">
                     </div>
                     <h3>Mar</h3>
-                    <p>Manta raya tejida en macramé</p>
+                    <p>Manta raya tejida en macramé con hilos naturales</p>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=500&h=400&fit=crop" alt="León en Macramé">
+                        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop" alt="Playa - León">
                     </div>
                     <h3>Playa</h3>
-                    <p>León majestuoso en macramé</p>
+                    <p>León majestuoso en macramé con técnicas ancestrales</p>
                 </div>
                 <div class="gallery-item">
                     <div class="gallery-image-wrapper">
-                        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop" alt="Arena - Macramé Decorativo">
+                        <img src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=500&h=400&fit=crop" alt="Arena - Decorativo">
                     </div>
                     <h3>Arena</h3>
-                    <p>Diseño decorativo en macramé</p>
+                    <p>Diseño decorativo en macramé para tu hogar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Talleres -->
+    <section class="workshops-section" id="custom">
+        <div class="container">
+            <h2>Talleres & Encargos Personalizados</h2>
+            <div class="workshops-content">
+                <div class="workshop-card">
+                    <h3>Talleres Presenciales</h3>
+                    <p>Aprende las técnicas básicas y avanzadas de macramé en nuestros talleres presenciales en Madrid. Grupos reducidos para una experiencia personalizada.</p>
+                    <a href="#contact" class="workshop-btn">Reserva tu taller</a>
+                </div>
+                <div class="workshop-card">
+                    <h3>Macramé a Medida</h3>
+                    <p>¿Buscas una pieza única? Creo encargos personalizados según tus especificaciones, colores y tamaño deseado.</p>
+                    <a href="#contact" class="workshop-btn">Encarga tu pieza</a>
                 </div>
             </div>
         </div>
